@@ -1,0 +1,28 @@
+.footer {
+    background: #222;
+    color: white;
+    padding-bottom: 10vh;
+    width: 100%;
+}
+
+
+
+.footer__logo {
+    height: 30px;
+    position: relative;
+    left: 10px;
+    top: 10px;
+}
+
+.footer__info{
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+.footer__copy{
+    align-items: center;
+    position: relative;
+    top:75px;
+    text-align: center;
+}

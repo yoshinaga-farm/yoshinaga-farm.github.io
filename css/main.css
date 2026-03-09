@@ -1,0 +1,25 @@
+.main {
+    display: flex;
+    min-height: 100vh;
+    flex: 1;
+    color: rgb(0, 68, 39);
+}
+
+.main__img {
+    height: 700px;
+    position: relative;
+    margin-left: 17rem;
+}
+
+.main__title--monthly {
+    font-size: 3rem;
+}
+
+.main__section {
+    position: relative;
+    left: 15rem;
+}
+
+.main__inner {
+    display: flex;
+}
