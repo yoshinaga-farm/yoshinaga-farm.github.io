@@ -2,13 +2,22 @@
     display: flex;
     min-height: 100vh;
     flex: 1;
-    color: rgb(0, 68, 39);
+    
+}
+
+.main__inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
 .main__img {
     height: 700px;
     position: relative;
-    margin-left: 17rem;
+    margin-left: auto;
 }
 
 .main__title--monthly {
@@ -17,10 +26,13 @@
 
 .main__section {
     position: relative;
-    left: 15rem;
+    margin: 10px auto;
+    padding: 10px;
 }
 
-.main__inner {
-    display: flex;
+
+
+.main__item{
+    color: rgb(0, 68, 39);
 }
 
