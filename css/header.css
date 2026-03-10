@@ -44,3 +44,8 @@
     background-color:rgb(37, 37, 37);
 }
 
+
+.search-inner{
+    position: absolute;
+    margin-left: 85vw;
+}
