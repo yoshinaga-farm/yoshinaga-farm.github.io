@@ -24,7 +24,6 @@
 
             <nav class="header__nav">
                 <ul class="header__list">
-                    <li class="header__item"><a href="index.html">HOME</a></li>
                     <li class="header__item">About us
                         <ul class="header__sublist">
                             <li class="header__subitem"><a href="#">自己紹介</a></li>
@@ -75,22 +74,23 @@
                 </ul>
             </nav>
 
-            <div class="search-inner">
-                <input type="search" id="pagefind-search" placeholder="search">
-                <div id="pagefind-results"></div>
-
-                <script src="/pagefind/pagefind.min.js" defer></script>
-                <script>
-                    window.addEventListener('DOMContentLoaded', () => {
-                        Pagefind.start();
-                    });
-                </script>
-
-
-            </div>
 
 
 
+
+
+
+        </div>
+        <div class="search-inner">
+            <input type="search" id="pagefind-search" placeholder="search">
+            <div id="pagefind-results"></div>
+
+            <script src="/pagefind/pagefind.min.js" defer></script>
+            <script>
+                window.addEventListener('DOMContentLoaded', () => {
+                    Pagefind.start();
+                });
+            </script>
 
 
         </div>

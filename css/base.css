@@ -1,13 +1,14 @@
 body {
-    background-color: white;
-    
+
+    background-image: url("../img/board.jpg");
+    background-size: cover;
+
 }
 
-   
+
 /*  
-*{
+* {
     outline: 2px red solid;
 }
 
-
-*/
+ */

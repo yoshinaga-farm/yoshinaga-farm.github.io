@@ -18,9 +18,9 @@
 }
 
 .search-inner {
-    max-width: 150px;
-    display: flex;
-    margin: 0 auto;
+    position: absolute;
+    top: 20px;
+    right: 10px;
 }
 
 .header__logo {
@@ -38,7 +38,8 @@
 }
 
 .header__item {
-    margin-right: 35px;
+    margin-right: 10px;
+    padding: 0 10px;
 }
 
 .header__logo {
@@ -63,3 +64,5 @@
 .header__sublist {
     background-color: rgb(37, 37, 37);
 }
+
+
