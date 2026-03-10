@@ -1,10 +1,15 @@
 .header {
     background-color: rgb(37, 37, 37);
-    padding: 30px ;
+    height: 60px;
+    width: 100%;
     position: sticky;
     top: 0;
     z-index: 10;
 
+}
+.search-inner{
+    position: absolute;
+    margin-left: 85vw;
 }
 
 .header__logo {
@@ -46,7 +51,4 @@
 }
 
 
-.search-inner{
-    position: absolute;
-    margin-left: 85vw;
-}
+
