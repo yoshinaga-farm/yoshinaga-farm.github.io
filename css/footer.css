@@ -1,5 +1,4 @@
 .footer {
-    margin: 0;
     background: #222;
     color: white;
     height: 400px;
@@ -8,31 +7,33 @@
 }
 
 .footer__inner {
-    margin: 0 auto;
+    margin:auto;
+    align-items: center;
+    text-align: center
 }
+
 
 
 .footer__logo {
-    margin: 3rem 0;
-    padding:0 20px;
+    margin: auto;
+    padding: 0 20px;
 }
 
 .footer__info {
-    margin: 3rem 1rem  ;
+    margin: auto;
     max-width: 250px;
 }
 
 .footer__copy {
-    position: relative;
     top: 70px;
-    text-align: center;
     max-width: 20rem;
     left: 35rem;
 }
 
 .google-map {
+    display: flex;
+    margin: auto;
     max-width: 300px;
-    position: absolute;
     top: 108vh;
     left: 78vw;
 
