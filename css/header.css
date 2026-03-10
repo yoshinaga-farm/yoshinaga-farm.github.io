@@ -13,7 +13,7 @@
 
 .header__list {
     display: flex;
-    color: white;
+    color: rgb(232, 255, 127);
     position: fixed;
     top: 15px;
     left: 15vw;
@@ -28,4 +28,18 @@
 }
 .header a{
     color: rgb(232, 255, 127);
+}
+.header__nav .header__subitem{
+    display: none;
+    position: relative;
+    top: 100%;
+    left: 0;
+}
+
+.header__item:hover .header__subitem{
+    display: block;
+}
+
+.header__sublist{
+    background-color:rgb(37, 37, 37);
 }
