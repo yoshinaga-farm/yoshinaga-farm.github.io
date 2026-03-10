@@ -7,34 +7,25 @@
 }
 
 .footer__inner {
-    margin:auto;
-    align-items: center;
-    text-align: center
+    margin: auto;
 }
 
 
 
 .footer__logo {
-    margin: auto;
-    padding: 0 20px;
+    margin-right: auto;
 }
 
 .footer__info {
     margin: auto;
-    max-width: 250px;
+    
 }
 
 .footer__copy {
-    top: 70px;
-    max-width: 20rem;
-    left: 35rem;
+    margin: auto;
 }
 
 .google-map {
-    display: flex;
-    margin: auto;
-    max-width: 300px;
-    top: 108vh;
-    left: 78vw;
+    max-width:350px
 
 }
