@@ -1,37 +1,37 @@
 .footer {
     background: #222;
-    color: white;
-    height: 340px;
+    height: 300px;
     width: 100%;
 }
 
 .footer__inner {
     margin: auto;
+    color: white;
+    display: flex;
 }
 
-
-
-.footer__logo {
-   position: relative;
-   top: 30px;
-
+.footer__company {
+    margin: auto;
+    margin-left: 20px;
 }
 
-.footer__info {
-    position: relative;
-    width: 300px;
-    top: 40px;
-    left:30px;
-    
+.footer__address {
+    margin-left: 20px;
 }
 
-.footer__copy {
-    text-align: center;
-    padding: 20px 0;
+.footer__insta {
+    height: 50px;
 }
 
-.google-map {
-    max-width: 100%;
-    text-align: right;
+.footer__face {
+    height: 50px;
+}
 
+.footer__SNS{
+    display: flex;
+    margin: 5px 30px;
+}
+
+.footer__face {
+    margin: 0 20px;
 }
