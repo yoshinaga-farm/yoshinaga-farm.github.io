@@ -1,9 +1,8 @@
 .footer {
     background: #222;
     color: white;
-    height: 360px;
+    height: 340px;
     width: 100%;
-
 }
 
 .footer__inner {
@@ -13,11 +12,16 @@
 
 
 .footer__logo {
-    margin-right: auto;
+   position: relative;
+   top: 30px;
+
 }
 
 .footer__info {
-    margin: auto;
+    position: relative;
+    width: 300px;
+    top: 40px;
+    left:30px;
     
 }
 
