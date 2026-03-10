@@ -26,3 +26,13 @@
     top:75px;
     text-align: center;
 }
+
+.google-map{
+    max-width: 300px;
+    position: absolute;
+    top: 108vh;
+    left: 78vw;
+
+}
+    
+    
