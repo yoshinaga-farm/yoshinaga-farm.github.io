@@ -49,4 +49,9 @@
 .footer__copy{
     color: aliceblue;
     text-align: center;
+    color:rgb(255, 202, 232);
+  text-shadow:
+  0 0 10px #ff77c9,
+  0 0 20px #9bf6ff,
+  0 0 30px #caffbf;
 }
