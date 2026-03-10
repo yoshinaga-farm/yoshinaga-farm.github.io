@@ -35,3 +35,17 @@
 .footer__face {
     margin: 0 20px;
 }
+
+.google-map{
+    position: relative;
+    align-items: end;
+}
+
+.footer__company{
+    display: block;
+}
+
+.footer__copy{
+    color: aliceblue;
+    text-align: center;
+}
