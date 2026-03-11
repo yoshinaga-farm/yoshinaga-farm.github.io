@@ -21,7 +21,7 @@
     margin-left: auto;
 }
 
-.main__title--monthly {
+#main__title--monthly {
     font-size: 3rem;
     color: rgb(255, 221, 221);
     text-shadow:
