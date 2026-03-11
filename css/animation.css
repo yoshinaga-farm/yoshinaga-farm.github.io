@@ -1,0 +1,75 @@
+ .vegi1 {
+     z-index: -1;
+     left: 5vw;
+     position: fixed;
+     animation-name: vegi-rain;
+     animation-duration: 22s;
+     animation-iteration-count: infinite;
+     animation-timing-function: linear;
+ }
+
+ 
+ .vegi2 {
+     z-index: -1;
+     position: fixed;
+     top: -200px;
+     left: 20vw;
+     animation-name: vegi-rain;
+     animation-delay: 3s;
+     animation-duration: 38s;
+     animation-iteration-count: infinite;
+     animation-timing-function: linear;
+ }
+
+ .vegi3 {
+     z-index: -1;
+     position: fixed;
+     left: 60vw;
+     animation-name: vegi-rain;
+     animation-duration: 27s;
+     animation-iteration-count: infinite;
+     animation-timing-function: linear;
+ }
+
+ .vegi4 {
+     z-index: -1;
+     position: fixed;
+     left: 80vw;
+     animation-name: vegi-rain;
+     animation-duration: 29s;
+     animation-iteration-count: infinite;
+     animation-timing-function: linear;
+ }
+
+ .vegi5 {
+     z-index: -1;
+     position: fixed;
+     left: 55vw;
+     animation-name: vegi-rain;
+     animation-duration: 14s;
+     animation-iteration-count: infinite;
+     animation-timing-function: linear;
+ }
+
+ .vegi6 {
+     z-index: -1;
+     position: fixed;
+     animation-name: vegi-rain;
+     animation-duration: 19s;
+     animation-iteration-count: infinite;
+     animation-timing-function: linear;
+ }
+
+ @keyframes vegi-rain {
+
+     from {
+         transform: translateY(-50vh) rotate(0deg);
+         ;
+
+     }
+
+     to {
+         transform: translateY(150vh) rotate(5000deg);
+
+     }
+ }
