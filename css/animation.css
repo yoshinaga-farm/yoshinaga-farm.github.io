@@ -14,7 +14,7 @@
  .vegi2 {
      z-index: -1;
      position: fixed;
-     top: -10vh;
+     top: -50vh;
      left: 20vw;
      animation-name: vegi-rain;
      animation-delay: 3s;
