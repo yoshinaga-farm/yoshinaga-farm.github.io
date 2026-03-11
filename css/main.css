@@ -29,9 +29,10 @@
 
 .main__section {
     position: relative;
-    margin: 10px auto;
+    margin: 0 auto;
     padding: 10px 50px;
     background-color: rgb(236, 224, 231);
+    max-height: 700px;
 }
 
 
