@@ -39,3 +39,7 @@
 .main__item{
     color: rgb(0, 68, 39);
 }
+
+.main__clock{
+position: fixed;
+}
