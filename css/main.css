@@ -24,6 +24,12 @@
 .main__title--monthly {
     font-size: 3rem;
     color: aliceblue;
+
+    color: rgb(255, 221, 221);
+    text-shadow:
+        0 0 10px #92ffe2,
+        0 0 20px #ff98f5,
+        0 0 30px #7dff69;
     
 }
 
