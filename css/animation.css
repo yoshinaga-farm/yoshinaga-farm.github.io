@@ -1,5 +1,3 @@
- 
- 
  .vegi1 {
      z-index: -1;
      left: 5vw;
@@ -10,7 +8,6 @@
      animation-timing-function: linear;
  }
 
- 
  .vegi2 {
      z-index: -1;
      position: fixed;
