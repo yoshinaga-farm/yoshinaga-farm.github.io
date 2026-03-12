@@ -1,10 +1,12 @@
 <header class="header">
     <div class="header__inner">
-        <a href="https://yoshinaga-farm.com"><img class="header__logo" src="img/header__logo.webp" alt="ヘッダーロゴ"></a>
+        <div class="header__logocontent">
+            <a href="https://yoshinaga-farm.com"><img class="header__logo" src="img/header__logo.webp" alt="ヘッダーロゴ"></a>
+        </div>
 
         <nav class="header__nav">
             <ul class="header__list">
-                <li class="header__item">About us
+                <li class="header__item">About
                     <ul class="header__sublist">
                         <li class="header__subitem"><a
                                 href="https://yoshinagafarm.wixsite.com/yoshinaga-farm/about-5">自己紹介</a></li>
@@ -77,17 +79,10 @@
                 </li>
 
             </ul>
+            
+            </div>
+
         </nav>
     </div>
-    <div class="search-inner">
-        <input type="search" id="pagefind-search" placeholder="search">
-        <div id="pagefind-results"></div>
 
-        <script src="/pagefind/pagefind.min.js" defer></script>
-        <script>
-            window.addEventListener('DOMContentLoaded', () => {
-                Pagefind.start();
-            });
-        </script>
-    </div>
 </header>
