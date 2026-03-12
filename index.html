@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YOSHINAGA FARM</title>
+    <link rel="icon" href="/img/carrots.webp">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/base.css">
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/index-main.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="/css/animation.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="/pagefind/pagefind-ui.css" rel="stylesheet">
+    <script src="/pagefind/pagefind-ui.js" defer></script>
+    <script src="/js/calender.js" defer></script>
+    <script src="/js/header_footer.js" defer></script>
+    <script src="/js/animation.js" defer></script>
+    <script src="/js/live-cam-time.js" defer></script>
+</head>
+
+<body>
+
+    <div id="header"></div>
+
+    <div id="animation"></div>
+
+    <main class="main">
+
+        <div class="main__inner">
+
+            <section class="main__section">
+                <h1 id="main__title--monthly"></h1>
+
+                <div class="main__google-calender">
+
+                    <iframe
+                        src="https://calendar.google.com/calendar/embed?src=bba496a0a2db9ec97aa6a8ad5ca6f697611087a9ff8f22d40002a2046331593c%40group.calendar.google.com&ctz=Asia%2FTokyo"
+                        style="border: 0" width="400" height="350" frameborder="0" scrolling="no">
+                    </iframe>
+                </div>
+
+                <div class="live-cam">
+                    <h2 id="live-cam-hour"></h2>
+                    <img class="live-cam-image" src="/img/fixing.png" alt="工事中">
+                    <p class="live-cam__sorry">申し訳ございません。現在調整中です。</p>
+                </div>
+
+            </section>
+            <img class="main__img" src="/img/home-img.webp" alt="ホームの写真">
+        </div>
+
+    </main>
+
+    <div id="footer"></div>
+
+</body>
+
+</html>
