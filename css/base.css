@@ -5,8 +5,12 @@ body {
 
 }
 
- 
- /*  
+.main {
+    min-height: 100vh;
+    flex: 1;
+}
+
+/*  
 * {
     outline: 2px red solid;
 }
