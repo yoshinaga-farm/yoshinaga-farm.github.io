@@ -1,5 +1,6 @@
 .footer {
     background: #2d2d2d;
+    position: relative;
     height: 300px;
     width: 100%;
 }
