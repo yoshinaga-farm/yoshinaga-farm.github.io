@@ -7,18 +7,20 @@
 
 .main__inner {
     background-color: rgba(224, 197, 156, 0.479);
-    max-width: 1200px;
     margin: 0 auto;
-    padding: 10px 100px;
-    display: flex;
     flex-wrap: wrap;
     gap: 20px;
+    
 }
 
-.main__img {
-    height: 700px;
+.main__section {
     position: relative;
-    margin:0 auto;
+    margin: auto;
+    padding: 10px 20px;
+    background-color: rgba(124, 160, 118, 0.816);
+    align-items: center;
+    display: flex;
+    
 }
 
 #main__title--monthly {
@@ -29,16 +31,11 @@
 
 }
 
-.main__section {
+.main__img {
+    height: 670px;
     position: relative;
-    margin: 0 auto;
-    padding: 10px 50px;
-    background-color: rgba(124, 160, 118, 0.816);
-    max-height: 700px;
-    display: block;
+    margin: auto;
 }
-
-
 
 .main__item {
     color: rgb(0, 68, 39);
@@ -49,9 +46,11 @@
 }
 
 .live-cam {
+    position: relative;
     margin: auto;
     background-color: rgba(70, 70, 70, 0.623);
     color: rgba(255, 203, 198, 0.851);
+    display: block;
 }
 
 .live-cam-image {
@@ -80,11 +79,19 @@
     50% {
         color: rgb(177, 216, 255);
     }
+
     75% {
         color: rgb(177, 255, 168);
     }
 
     100% {
         color: rgb(255, 142, 142);
+    }
+}
+
+@media screen and (max-width:800px) {
+    .main__inner {
+        flex-direction: column;
+        align-items: center;
     }
 }
