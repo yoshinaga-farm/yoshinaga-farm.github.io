@@ -10,17 +10,22 @@
     margin: 0 auto;
     flex-wrap: wrap;
     gap: 20px;
-    
+    max-width: 80%;
 }
 
 .main__section {
     position: relative;
     margin: auto;
-    padding: 10px 20px;
     background-color: rgba(124, 160, 118, 0.816);
     align-items: center;
+    padding: 10px 50px;
     display: flex;
+    flex-wrap: wrap;
     
+}
+.main__calender{
+    position: relative;
+    align-items: center;
 }
 
 #main__title--monthly {
@@ -33,7 +38,6 @@
 
 .main__img {
     height: 670px;
-    position: relative;
     margin: auto;
 }
 

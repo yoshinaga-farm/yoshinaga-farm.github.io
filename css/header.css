@@ -5,6 +5,7 @@
     display: flex;
     height: 80px;
     z-index: 10;
+    margin: auto;
 }
 
 .header__inner {
