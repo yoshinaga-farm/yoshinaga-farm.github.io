@@ -1,14 +1,11 @@
 body {
 
-    background-image: url("../img/board.webp");
+    background-image: url("/img/board.webp");
     background-size: cover;
 
 }
 
-.main {
-    min-height: 100vh;
-    flex: 1;
-}
+
 
 /*  
 * {
