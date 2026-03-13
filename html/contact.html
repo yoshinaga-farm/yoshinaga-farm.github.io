@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="/css/contact-main.css">
     <link rel="stylesheet" href="/css/footer.css">
     <link rel="stylesheet" href="/css/animation.css">
+    <link rel="stylesheet" href="/css/formspree.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <script src="/js/header_footer.js" defer></script>
 </head>
@@ -22,11 +23,27 @@
 
     <main class="main">
         <div class="main__inner">
-            <div class="mein__mail">
-                <form action="https://formspree.io/f/{form_id}" method="post">
-                    <label for="email">Your Email</label>
-                    <input name="Email" id="email" type="email">
-                    <button type="submit">Submit</button>
+            <div class="main__form">
+                <form action="https://formspree.io/f/xqeybwwp" class="fs-form" target="_top" method="POST">
+                    <div class="fs-field">
+                        <label class="fs-label" for="name">お名前</label>
+                        <input class="fs-input" id="name" name="name" required />
+                    </div>
+                    <div class="fs-field">
+                        <label class="fs-label" for="email">メールアドレス</label>
+                        <input class="fs-input" id="email" name="email" required />
+                    </div>
+                    <div class="fs-field">
+                        <label class="fs-label" for="number">電話番号</label>
+                        <input class="fs-input" id="number" name="number" required />
+                    </div>
+                    <div class="fs-field">
+                        <label class="fs-label" for="message">お問い合わせ内容</label>
+                        <textarea class="fs-textarea" id="message" name="message" required></textarea>
+                    </div>
+                    <div class="fs-button-group">
+                        <button class="fs-button" type="submit">送信</button>
+                    </div>
                 </form>
             </div>
         </div>

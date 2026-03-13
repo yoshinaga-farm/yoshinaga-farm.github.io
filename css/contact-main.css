@@ -3,6 +3,18 @@ body{
 }
 
 .main {
+    position: relative;
     min-height: 100vh;
     flex: 1;
+}
+.main__inner{
+    width: 100%;
+    margin: auto;
+}
+
+.main__form{
+    background-color: rgba(33, 33, 33, 0.803);
+    position: relative;
+    margin: auto;
+    width: 40%;
 }
