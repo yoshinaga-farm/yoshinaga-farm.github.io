@@ -75,7 +75,7 @@
          width: 100%;
      }
 
-     .header__hamburgerposition {
+     .menu-toggle {
 
          position: fixed;
          right: 1rem;
@@ -84,61 +84,56 @@
          padding: 1rem;
      }
 
+     .NOT-USED {
 
-     .header__span {
-         display: block;
-         height: 0.5rem;
+         .header__span {
+             display: block;
+             height: 0.5rem;
+         }
+
+
+         .header__list {
+             flex-direction: column;
+             /* メニューを縦一列に並べる */
+             padding: 0;
+             text-align: center;
+         }
+
+         .header__item {
+             margin: 10px 0;
+             /* 横の余白を消して上下に分ける */
+         }
+
+         /* スマホではサブメニューを最初から表示しておく（ホバーが効かないため） */
+         .header__subitem {
+             display: block !important;
+             position: static;
+             /* absoluteを解除して縦に並べる */
+             background: #3a3a3a;
+             padding: 5px 0;
+         }
+
+         .header__sublist {
+             position: static;
+             /* 浮いているのをやめて中に収める */
+             padding-left: 0;
+         }
+
+         .header__hamburger {
+             position: fixed;
+             top: 0;
+             right: -250px;
+             /* 隠す */
+             width: 250px;
+             height: 100vh;
+             background: #fff;
+             transition: right 0.3s;
+         }
+
+
+
+         .header__nav {
+             display: none;
+         }
      }
-
-
-     .header__list {
-         flex-direction: column;
-         /* メニューを縦一列に並べる */
-         padding: 0;
-         text-align: center;
-     }
-
-     .header__item {
-         margin: 10px 0;
-         /* 横の余白を消して上下に分ける */
-     }
-
-     /* スマホではサブメニューを最初から表示しておく（ホバーが効かないため） */
-     .header__subitem {
-         display: block !important;
-         position: static;
-         /* absoluteを解除して縦に並べる */
-         background: #3a3a3a;
-         padding: 5px 0;
-     }
-
-     .header__sublist {
-         position: static;
-         /* 浮いているのをやめて中に収める */
-         padding-left: 0;
-     }
-
-     .header__hamburger {
-         position: fixed;
-         top: 0;
-         right: -250px;
-         /* 隠す */
-         width: 250px;
-         height: 100vh;
-         background: #fff;
-         transition: right 0.3s;
-     }
-
-     /* クラスが付いたら表示！ */
-     .header__hamburger.open {
-
-         right: 0;
-         /* 右端にスライド */
-         /* メニューが多いのでスクロール可能にする */
-     }
-
-     .header__nav {
-         display: none;
-     }
-
  }
