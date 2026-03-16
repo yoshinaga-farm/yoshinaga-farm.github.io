@@ -64,7 +64,7 @@
      display: none;
  }
 
- /* 画面幅が768px以下の時だけ適用 */
+
  @media (max-width: 768px) {
      .header {
          height: auto;
@@ -76,24 +76,14 @@
      }
 
      .header__hamburgerposition {
-         margin: auto;
+
          position: fixed;
          right: 1rem;
-
+         border: 2px #fff solid;
+         color: #fff;
+         padding: 1rem;
      }
 
-     /* 三本線ボタンのスタイル（簡易版） */
-     .header__hamburger {
-         display: block;
-         position: relative;
-         margin: auto;
-         width: 40px;
-         height: 40px;
-         background: none;
-         cursor: pointer;
-         color: aliceblue;
-         border: 2px white solid;
-     }
 
      .header__span {
          display: block;
@@ -128,25 +118,27 @@
          padding-left: 0;
      }
 
-     .header__nav {
-         display: none;
+     .header__hamburger {
          position: fixed;
-         top: 80px;
-         /* ヘッダーの高さ分下げる */
-         left: 0;
-         width: 100%;
-         height: calc(100vh - 80px);
-         /* 画面一杯の高さ */
-         background: #2d2d2d;
+         top: 0;
+         right: -250px;
+         /* 隠す */
+         width: 250px;
+         height: 100vh;
+         background: #fff;
+         transition: right 0.3s;
      }
 
      /* クラスが付いたら表示！ */
-     .header__nav.is-open {
-         display: block;
-         overflow-y: auto;
+     .header__hamburger.open {
+
+         right: 0;
+         /* 右端にスライド */
          /* メニューが多いのでスクロール可能にする */
      }
 
-
+     .header__nav {
+         display: none;
+     }
 
  }
