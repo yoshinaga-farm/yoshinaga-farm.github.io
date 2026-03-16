@@ -67,9 +67,7 @@
     }
 
     .header__inner {
-        flex-direction: column;
-        /* ロゴとナビを縦に並べる */
-        align-items: center;
+        
     }
 
     .header__list {
@@ -126,6 +124,12 @@
         background: none;
         border: none;
         cursor: pointer;
+        color: aliceblue;
+        border:2px white solid;
+    }
+    .header__span{
+        display: block;
+        height: 0.5rem;
     }
 
     
