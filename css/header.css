@@ -69,6 +69,11 @@
     .header__inner {
         
     }
+    .header__hamburgerposition{
+        margin: auto;
+        padding: 0 30px;
+        position: relative;
+    }
 
     .header__list {
         flex-direction: column;
@@ -126,6 +131,8 @@
         cursor: pointer;
         color: aliceblue;
         border:2px white solid;
+        position: relative;
+       
     }
     .header__span{
         display: block;
