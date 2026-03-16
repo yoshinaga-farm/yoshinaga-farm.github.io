@@ -76,11 +76,9 @@
 
     .header__hamburgerposition {
         margin: auto;
-        padding: 0 100px;
-        position: relative;
-
-
-
+        position: fixed;
+        right: 1rem;
+        
     }
 
     /* 三本線ボタンのスタイル（簡易版） */
