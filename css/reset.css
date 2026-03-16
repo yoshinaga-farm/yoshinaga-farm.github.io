@@ -20,6 +20,8 @@ img {
   max-width: 100%;
 }
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
-}/*# sourceMappingURL=reset.css.map */
+}

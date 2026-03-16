@@ -1,82 +1,72 @@
- .animation__nav {
-     position: absolute;
-     inset: 0;
-     pointer-events: none;
-     overflow: hidden;
-     z-index: -1;
-     height: 120%;
- }
+.animation__nav {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  overflow: hidden;
+  z-index: -1;
+  height: 120%;
+}
 
- .vegi1 {
-     
-     left: 5vw;
-     position: absolute;
-     animation-name: vegi-rain;
-     animation-duration: 22s;
-     animation-iteration-count: infinite;
-     animation-timing-function: linear;
- }
+.vegi1 {
+  left: 5vw;
+  position: absolute;
+  animation-name: vegi-rain;
+  animation-duration: 22s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
 
- .vegi2 {
-     
-     position: absolute;
-     top: -30vh;
-     left: 20vw;
-     animation-name: vegi-rain;
-     animation-duration: 35s;
-     animation-iteration-count: infinite;
-     animation-timing-function: linear;
- }
+.vegi2 {
+  position: absolute;
+  top: -30vh;
+  left: 20vw;
+  animation-name: vegi-rain;
+  animation-duration: 35s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
 
- .vegi3 {
-     
-     position: absolute;
-     left: 60vw;
-     animation-name: vegi-rain;
-     animation-duration: 27s;
-     animation-iteration-count: infinite;
-     animation-timing-function: linear;
- }
+.vegi3 {
+  position: absolute;
+  left: 60vw;
+  animation-name: vegi-rain;
+  animation-duration: 27s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
 
- .vegi4 {
-     
-     position: absolute;
-     left: 80vw;
-     animation-name: vegi-rain;
-     animation-duration: 29s;
-     animation-iteration-count: infinite;
-     animation-timing-function: linear;
- }
+.vegi4 {
+  position: absolute;
+  left: 80vw;
+  animation-name: vegi-rain;
+  animation-duration: 29s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
 
- .vegi5 {
-     
-     position: absolute;
-     left: 55vw;
-     animation-name: vegi-rain;
-     animation-duration: 14s;
-     animation-iteration-count: infinite;
-     animation-timing-function: linear;
- }
+.vegi5 {
+  position: absolute;
+  left: 55vw;
+  animation-name: vegi-rain;
+  animation-duration: 14s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
 
- .vegi6 {
-     
-     position: absolute;
-     animation-name: vegi-rain;
-     animation-duration: 19s;
-     animation-iteration-count: infinite;
-     animation-timing-function: linear;
- }
+.vegi6 {
+  position: absolute;
+  animation-name: vegi-rain;
+  animation-duration: 19s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
 
- @keyframes vegi-rain {
+@keyframes vegi-rain {
+  0% {
+    transform: translateY(-20vh) rotate(0deg);
+  }
 
-     0% {
-         transform: translateY(-20vh) rotate(0deg);
-         ;
-
-     }
-
-     100% {
-         transform: translateY(140vh) rotate(5000deg);
-
-     }
- }
+  100% {
+    transform: translateY(140vh) rotate(5000deg);
+  }
+}

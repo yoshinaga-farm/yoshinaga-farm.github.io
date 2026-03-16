@@ -1,7 +1,9 @@
 body {
   background-image: url("/img/board.webp");
   background-size: cover;
-  cursor: url(/img/cursor.png) 0 0, auto;
+  cursor:
+    url(/img/cursor.png) 0 0,
+    auto;
 }
 
 /*  
