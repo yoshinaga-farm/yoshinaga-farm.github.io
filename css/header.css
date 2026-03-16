@@ -1,9 +1,9 @@
-.header {
+ .header { 
     background-color: #2d2d2d;
     position: sticky;
     top: 0;
     display: flex;
-    height: 80px;
+    height: 10%;
     z-index: 10;
 }
 
@@ -15,8 +15,9 @@
 }
 
 .header__logo {
-    height: 4rem;
-
+    margin: auto;
+    padding: auto;
+    height: 60px;
 }
 
 .header__nav {
@@ -58,6 +59,9 @@
 .header a {
     color: rgb(232, 255, 127);
 }
+.header__hamburger{
+    display: none;
+} 
 
 /* 画面幅が768px以下の時だけ適用 */
 @media (max-width: 768px) {
@@ -67,13 +71,36 @@
     }
 
     .header__inner {
-        
+
     }
-    .header__hamburgerposition{
+
+    .header__hamburgerposition {
         margin: auto;
-        padding: 0 30px;
+        padding: 0 100px;
         position: relative;
+
+
+
     }
+
+    /* 三本線ボタンのスタイル（簡易版） */
+    .header__hamburger {
+        display: block;
+        position: relative;
+        margin: auto;
+        width: 40px;
+        height: 40px;
+        background: none;
+        cursor: pointer;
+        color: aliceblue;
+        border: 2px white solid;
+    }
+
+    .header__span {
+        display: block;
+        height: 0.5rem;
+    }
+
 
     .header__list {
         flex-direction: column;
@@ -121,23 +148,6 @@
         /* メニューが多いのでスクロール可能にする */
     }
 
-    /* 三本線ボタンのスタイル（簡易版） */
-    .header__hamburger {
-        display: block;
-        width: 40px;
-        height: 40px;
-        background: none;
-        border: none;
-        cursor: pointer;
-        color: aliceblue;
-        border:2px white solid;
-        position: relative;
-       
-    }
-    .header__span{
-        display: block;
-        height: 0.5rem;
-    }
 
-    
+
 }
