@@ -13,3 +13,14 @@ const loadFooter = async () => {
 }
 
 loadFooter();
+
+
+
+const hamburger = document.getElementById('js-hamburger');
+const nav = document.querySelector('.header__nav');
+
+hamburger.addEventListener('click', function () {
+  // クラスがあれば削除、なければ追加（トグル）
+  hamburger.classList.toggle('is-open');
+  nav.classList.toggle('is-open');
+});

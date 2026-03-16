@@ -5,7 +5,6 @@
     display: flex;
     height: 80px;
     z-index: 10;
-    margin: auto;
 }
 
 .header__inner {
@@ -30,7 +29,7 @@
     position: relative;
     top: 100%;
     left: 0;
-    
+
 }
 
 .header__item:hover .header__subitem {
@@ -53,7 +52,7 @@
 
 .header__sublist {
     background-color: rgb(37, 37, 37);
-    position: absolute; 
+    position: absolute;
 }
 
 .header a {
@@ -63,34 +62,71 @@
 /* 画面幅が768px以下の時だけ適用 */
 @media (max-width: 768px) {
     .header {
-        height: auto; /* 高さを固定せず中身に合わせる */
+        height: auto;
+        /* 高さを固定せず中身に合わせる */
     }
 
     .header__inner {
-        flex-direction: column; /* ロゴとナビを縦に並べる */
+        flex-direction: column;
+        /* ロゴとナビを縦に並べる */
         align-items: center;
     }
 
     .header__list {
-        flex-direction: column; /* メニューを縦一列に並べる */
+        flex-direction: column;
+        /* メニューを縦一列に並べる */
         padding: 0;
         text-align: center;
     }
 
     .header__item {
-        margin: 10px 0; /* 横の余白を消して上下に分ける */
+        margin: 10px 0;
+        /* 横の余白を消して上下に分ける */
     }
 
     /* スマホではサブメニューを最初から表示しておく（ホバーが効かないため） */
     .header__subitem {
-        display: block !important; 
-        position: static; /* absoluteを解除して縦に並べる */
+        display: block !important;
+        position: static;
+        /* absoluteを解除して縦に並べる */
         background: #3a3a3a;
         padding: 5px 0;
     }
-    
+
     .header__sublist {
-        position: static; /* 浮いているのをやめて中に収める */
+        position: static;
+        /* 浮いているのをやめて中に収める */
         padding-left: 0;
     }
+
+    .header__nav {
+        display: none;
+        position: fixed;
+        top: 80px;
+        /* ヘッダーの高さ分下げる */
+        left: 0;
+        width: 100%;
+        height: calc(100vh - 80px);
+        /* 画面一杯の高さ */
+        background: #2d2d2d;
+    }
+
+    /* クラスが付いたら表示！ */
+    .header__nav.is-open {
+        display: block;
+        overflow-y: auto;
+        /* メニューが多いのでスクロール可能にする */
+    }
+
+    /* 三本線ボタンのスタイル（簡易版） */
+    .header__hamburger {
+        display: block;
+        width: 40px;
+        height: 40px;
+        background: none;
+        border: none;
+        cursor: pointer;
+    }
+
+    
 }
