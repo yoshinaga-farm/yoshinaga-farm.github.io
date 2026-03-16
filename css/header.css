@@ -1,151 +1,152 @@
- .header { 
-    background-color: #2d2d2d;
-    position: sticky;
-    top: 0;
-    display: flex;
-    height: 10%;
-    z-index: 10;
-}
+ .header {
+     background-color: #2d2d2d;
+     position: sticky;
+     top: 0;
+     display: flex;
+     height: 10%;
+     z-index: 10;
+ }
 
-.header__inner {
-    width: 100%;
-    display: flex;
-    align-items: center;
+ .header__inner {
+     width: 100%;
+     display: flex;
+     align-items: center;
 
-}
+ }
 
-.header__logo {
-    margin: auto;
-    padding: auto;
-    height: 60px;
-}
+ .header__logo {
+     margin: auto;
+     padding: auto;
+     height: 60px;
+ }
 
-.header__nav {
-    display: flex;
-    margin: 0 auto;
-}
+ .header__nav {
+     display: flex;
+     margin: 0 auto;
+ }
 
-.header__nav .header__subitem {
-    display: none;
-    position: relative;
-    top: 100%;
-    left: 0;
+ .header__nav .header__subitem {
+     display: none;
+     position: relative;
+     top: 100%;
+     left: 0;
 
-}
+ }
 
-.header__item:hover .header__subitem {
-    display: block;
-}
+ .header__item:hover .header__subitem {
+     display: block;
+ }
 
-.header__list {
-    display: flex;
-    color: rgb(232, 255, 127);
-    justify-content: center;
-    margin: 0 auto;
+ .header__list {
+     display: flex;
+     color: rgb(232, 255, 127);
+     justify-content: center;
+     margin: 0 auto;
 
-}
+ }
 
-.header__item {
-    margin-right: 30px;
-    padding: 0 10px;
-    position: relative;
-}
+ .header__item {
+     margin-right: 30px;
+     padding: 0 10px;
+     position: relative;
+ }
 
-.header__sublist {
-    background-color: rgb(37, 37, 37);
-    position: absolute;
-}
+ .header__sublist {
+     background-color: rgb(37, 37, 37);
+     position: absolute;
+ }
 
-.header a {
-    color: rgb(232, 255, 127);
-}
-.header__hamburger{
-    display: none;
-} 
+ .header a {
+     color: rgb(232, 255, 127);
+ }
 
-/* 画面幅が768px以下の時だけ適用 */
-@media (max-width: 768px) {
-    .header {
-        height: auto;
-        /* 高さを固定せず中身に合わせる */
-    }
+ .header__hamburger {
+     display: none;
+ }
 
-    .header__inner {
+ /* 画面幅が768px以下の時だけ適用 */
+ @media (max-width: 768px) {
+     .header {
+         height: auto;
+         /* 高さを固定せず中身に合わせる */
+     }
 
-    }
+     .header__inner {
+         width: 100%;
+     }
 
-    .header__hamburgerposition {
-        margin: auto;
-        position: fixed;
-        right: 1rem;
-        
-    }
+     .header__hamburgerposition {
+         margin: auto;
+         position: fixed;
+         right: 1rem;
 
-    /* 三本線ボタンのスタイル（簡易版） */
-    .header__hamburger {
-        display: block;
-        position: relative;
-        margin: auto;
-        width: 40px;
-        height: 40px;
-        background: none;
-        cursor: pointer;
-        color: aliceblue;
-        border: 2px white solid;
-    }
+     }
 
-    .header__span {
-        display: block;
-        height: 0.5rem;
-    }
+     /* 三本線ボタンのスタイル（簡易版） */
+     .header__hamburger {
+         display: block;
+         position: relative;
+         margin: auto;
+         width: 40px;
+         height: 40px;
+         background: none;
+         cursor: pointer;
+         color: aliceblue;
+         border: 2px white solid;
+     }
 
-
-    .header__list {
-        flex-direction: column;
-        /* メニューを縦一列に並べる */
-        padding: 0;
-        text-align: center;
-    }
-
-    .header__item {
-        margin: 10px 0;
-        /* 横の余白を消して上下に分ける */
-    }
-
-    /* スマホではサブメニューを最初から表示しておく（ホバーが効かないため） */
-    .header__subitem {
-        display: block !important;
-        position: static;
-        /* absoluteを解除して縦に並べる */
-        background: #3a3a3a;
-        padding: 5px 0;
-    }
-
-    .header__sublist {
-        position: static;
-        /* 浮いているのをやめて中に収める */
-        padding-left: 0;
-    }
-
-    .header__nav {
-        display: none;
-        position: fixed;
-        top: 80px;
-        /* ヘッダーの高さ分下げる */
-        left: 0;
-        width: 100%;
-        height: calc(100vh - 80px);
-        /* 画面一杯の高さ */
-        background: #2d2d2d;
-    }
-
-    /* クラスが付いたら表示！ */
-    .header__nav.is-open {
-        display: block;
-        overflow-y: auto;
-        /* メニューが多いのでスクロール可能にする */
-    }
+     .header__span {
+         display: block;
+         height: 0.5rem;
+     }
 
 
+     .header__list {
+         flex-direction: column;
+         /* メニューを縦一列に並べる */
+         padding: 0;
+         text-align: center;
+     }
 
-}
+     .header__item {
+         margin: 10px 0;
+         /* 横の余白を消して上下に分ける */
+     }
+
+     /* スマホではサブメニューを最初から表示しておく（ホバーが効かないため） */
+     .header__subitem {
+         display: block !important;
+         position: static;
+         /* absoluteを解除して縦に並べる */
+         background: #3a3a3a;
+         padding: 5px 0;
+     }
+
+     .header__sublist {
+         position: static;
+         /* 浮いているのをやめて中に収める */
+         padding-left: 0;
+     }
+
+     .header__nav {
+         display: none;
+         position: fixed;
+         top: 80px;
+         /* ヘッダーの高さ分下げる */
+         left: 0;
+         width: 100%;
+         height: calc(100vh - 80px);
+         /* 画面一杯の高さ */
+         background: #2d2d2d;
+     }
+
+     /* クラスが付いたら表示！ */
+     .header__nav.is-open {
+         display: block;
+         overflow-y: auto;
+         /* メニューが多いのでスクロール可能にする */
+     }
+
+
+
+ }

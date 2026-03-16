@@ -2,7 +2,7 @@ body {
 
     background-image: url("/img/board.webp");
     background-size: cover;
-
+    cursor: url(/img/cool.jpg)16 16 auto;
 }
 
 
