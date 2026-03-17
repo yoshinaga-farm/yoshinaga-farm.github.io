@@ -58,11 +58,13 @@
 }
 
 .sub-title {
+  font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 15px;
   font-weight: bold;
   width: 160px;
   position: relative;
   left: 260px;
+
   background:
     radial-gradient(
       circle at 20% 30%,
