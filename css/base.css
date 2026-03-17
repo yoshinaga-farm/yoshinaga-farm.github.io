@@ -1,15 +1,13 @@
 body {
-
-    background-image: url("/img/board.webp");
-    background-size: cover;
-
+  background-image: url("/img/board.webp");
+  background-size: cover;
+  cursor:
+    url(/img/cursor.png) 0 0,
+    auto;
 }
-
-
 
 /*  
 * {
-    outline: 2px red solid;
+  border: 2px red solid;
 }
-
-*/
+  */
