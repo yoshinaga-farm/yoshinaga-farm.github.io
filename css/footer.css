@@ -88,7 +88,7 @@
   margin: 10px auto;
 }
 
-iframe {
+.google-map-iframe {
   width: 500px;
   height: 250px;
 }
@@ -133,7 +133,7 @@ iframe {
     top: 80px;
   }
 
-  iframe {
+  .google-map-iframe {
     width: 100px;
     height: 100px;
   }

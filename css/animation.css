@@ -4,7 +4,7 @@
   pointer-events: none;
   overflow: hidden;
   z-index: -1;
-  height: 120%;
+  height: 150%;
 }
 
 .vegi1 {
@@ -67,6 +67,9 @@
   }
 
   100% {
-    transform: translateY(140vh) rotate(5000deg);
+    transform: translateY(180vh) rotate(5000deg);
   }
+}
+
+@media screen(max-width:768px) {
 }
