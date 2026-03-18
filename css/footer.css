@@ -92,7 +92,15 @@
   width: 500px;
   height: 250px;
 }
-@media screen and (max-width: 758px) {
+
+@media screen and (max-width: 880px) {
+  .sub-title {
+    position: relative;
+    left: 20vw;
+  }
+}
+
+@media screen and (max-width: 770px) {
   .footer {
     background: #2d2d2d;
     position: relative;
@@ -114,7 +122,7 @@
   .sub-title {
     display: block;
     position: relative;
-    left: 200px;
+    left: 210px;
   }
 
   .footer__address {
