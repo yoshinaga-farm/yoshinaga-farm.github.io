@@ -1,10 +1,10 @@
 .animation__nav {
   position: absolute;
-  inset: 0;
+  inset: 1;
   pointer-events: none;
   overflow: hidden;
   z-index: -1;
-  height: 150%;
+  height: 140%;
 }
 
 .vegi1 {
@@ -70,6 +70,16 @@
     transform: translateY(180vh) rotate(5000deg);
   }
 }
+/* ≈125% */
+@media screen and (max-width: 1600px) {
+  .animation__nav {
+    height: 170%;
+  }
+}
 
-@media screen(max-width:768px) {
+/* ≈150% */
+@media screen and (max-width: 1300px) {
+  .animation__nav {
+    height: 200%;
+  }
 }
