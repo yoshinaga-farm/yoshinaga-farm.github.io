@@ -1,7 +1,7 @@
 .footer {
   background: #2d2d2d;
   position: relative;
-  height: 300px;
+  height: auto;
   width: 100%;
 }
 
@@ -56,9 +56,9 @@
     0 0 20px #9bf6ff,
     0 0 30px #caffbf;
 }
- 
+
 .sub-title {
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 15px;
   font-weight: bold;
   width: 160px;
@@ -86,4 +86,64 @@
 
 .footer__info {
   margin: 10px auto;
+}
+
+.google-map-iframe {
+  width: 500px;
+  height: 250px;
+}
+
+@media screen and (max-width: 880px) {
+  .sub-title {
+    position: relative;
+    left: 20vw;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .footer {
+    background: #2d2d2d;
+    position: relative;
+    height: auto;
+    width: 100%;
+  }
+
+  .footer__inner {
+    margin: auto;
+    color: white;
+    display: block;
+  }
+
+  .footer__company {
+    margin: auto;
+    display: block;
+  }
+
+  .sub-title {
+    display: block;
+    position: relative;
+    left: 210px;
+  }
+
+  .footer__address {
+    margin-left: 20px;
+  }
+
+  .footer__insta {
+    height: 50px;
+  }
+
+  .footer__face {
+    height: 50px;
+  }
+
+  .google-map {
+    position: absolute;
+    top: 80px;
+  }
+
+  .google-map-iframe {
+    width: 100px;
+    height: 100px;
+  }
 }
