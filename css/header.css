@@ -80,7 +80,7 @@
 
   .menu-toggle {
     display: block;
-    position: fixed;
+    position: absolute;
     right: 1rem;
     border: 2px #fff solid;
     color: #fff;
