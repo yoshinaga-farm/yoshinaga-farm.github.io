@@ -87,6 +87,15 @@
   }
 }
 
+@media screen and (max-width: 880px) {
+  .main__section {
+    display: block;
+  }
+  .animation__nav {
+    display: none;
+  }
+}
+
 @media screen and (max-width: 758px) {
   .main__section {
     display: none;

@@ -113,7 +113,8 @@
 
   .sub-title {
     display: block;
-    left: 190px;
+    position: relative;
+    left: 200px;
   }
 
   .footer__address {

@@ -1,6 +1,6 @@
 .animation__nav {
   position: absolute;
-  inset: 1;
+  inset:1;
   pointer-events: none;
   overflow: hidden;
   z-index: -1;
@@ -71,14 +71,14 @@
   }
 }
 /* ≈125% */
-@media screen and (max-width: 1600px) {
+@media screen and (max-width: 1230px) {
   .animation__nav {
     height: 170%;
   }
 }
 
 /* ≈150% */
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1100px) {
   .animation__nav {
     height: 200%;
   }
