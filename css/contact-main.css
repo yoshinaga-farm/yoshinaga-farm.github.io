@@ -1,23 +1,29 @@
-body{
-    background-image:url("/img/satellite.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+body {
+  background-image: url("/img/satellite.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .main {
-    position: relative;
-    min-height: 100vh;
-    flex: 1;
+  position: relative;
+  min-height: 100vh;
+  flex: 1;
 }
-.main__inner{
-    width: 100%;
-    margin: auto;
+.main__inner {
+  width: 100%;
+  margin: auto;
 }
 
-.main__form{
-    background-color: rgba(33, 33, 33, 0.803);
+.main__form {
+  background-color: rgba(33, 33, 33, 0.803);
+  position: relative;
+  margin: auto;
+  width: 35%;
+}
+@media screen and (max-width:870px) ,(hover: none) and (pointer: coarse) {
+  .main__form {
     position: relative;
-    margin: auto;
-    width: 40%;
+    margin-left:22%; 
+  }
 }
