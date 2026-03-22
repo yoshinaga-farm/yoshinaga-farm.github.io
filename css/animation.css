@@ -1,6 +1,6 @@
 .animation__nav {
   position: absolute;
-  inset:0;
+  inset: 0;
   pointer-events: none;
   overflow: hidden;
   z-index: -1;
@@ -70,10 +70,32 @@
     transform: translateY(180vh) rotate(5000deg);
   }
 }
+
+/* < 80% */
+@media screen and (min-width: 1919px) {
+  .animation__nav {
+    display: none;
+  }
+}
+
+/* ≈110% */
+@media screen and (max-width: 1397px) {
+  .animation__nav {
+    height: 180%;
+  }
+}
+
 /* ≈125% */
 @media screen and (max-width: 1230px) {
   .animation__nav {
     height: 170%;
+  }
+}
+
+/* ≈133% */
+@media screen and (max-width: 1153px) {
+  .animation__nav {
+    height: 180%;
   }
 }
 
