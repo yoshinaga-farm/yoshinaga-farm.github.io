@@ -106,13 +106,4 @@ iframe{
   }
 }
 
-@media screen and (max-width: 758px) {
-  
-  .animation__nav {
-    display: none;
-  }
 
-  iframe{
-    width: 100%;
-  }
-}
