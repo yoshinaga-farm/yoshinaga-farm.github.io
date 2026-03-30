@@ -72,7 +72,7 @@
 }
 
 /* < 80% */
-@media screen and (min-width: 1919px) {
+@media screen and (min-width: 2132px) {
   .animation__nav {
     display: none;
   }
