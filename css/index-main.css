@@ -30,6 +30,11 @@
   text-shadow: 0 0 10px #ffb0f1;
 }
 
+iframe{
+  width:500px;
+  height:600px;
+}
+
 .main__img {
   height: 670px;
   margin: auto;
@@ -91,15 +96,18 @@
   .main__section {
     display: block;
   }
+
+  iframe{
+    width: 100%;
+  }
+
   .animation__nav {
     display: none;
   }
 }
 
 @media screen and (max-width: 758px) {
-  .main__section {
-    display: none;
-  }
+  
   .animation__nav {
     display: none;
   }
