@@ -4,8 +4,7 @@ const liveCamHour = () => {
   const minute = now.getMinutes().toString().padStart(2, "0");
   const second = now.getSeconds().toString().padStart(2, "0");
   const msec = Math.floor(now.getMilliseconds() / 10);
-  const msecFix = msec.toString().padStart(2, "0");
-  const year = now.getFullYear();
+  const msecFix = msec.toString().aear();
   const month = now.getMonth() + 1;
   const day = now.getDate();
   const week = now.getDay();
