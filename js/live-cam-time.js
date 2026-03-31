@@ -27,4 +27,4 @@ const liveCamHour = () => {
 
 liveCamHour();
 
-setInterval(liveCamHour, 16);
+setInterval(liveCamHour,10);
