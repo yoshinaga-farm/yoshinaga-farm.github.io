@@ -10,11 +10,19 @@ const liveCamHour = () => {
   const day = now.getDate();
   const week = now.getDay();
 
-  const weekList = ["月曜日", "火曜日", "水曜日", "木曜日", "金曜日", "土曜日", "日曜日"];
+  const weekList = [
+    "月曜日",
+    "火曜日",
+    "水曜日",
+    "木曜日",
+    "金曜日",
+    "土曜日",
+    "日曜日",
+  ];
   const weekStr = weekList[week];
 
   document.getElementById("live-cam-hour").textContent =
-    `販売所のライブ映像(${year}/${month}/${day} ${weekStr}  ${hour}:${minute}:${second}.${msecFix})`;
+    `(${year}/${month}/${day} ${weekStr}  ${hour}:${minute}:${second}.${msecFix})`;
 };
 
 liveCamHour();
