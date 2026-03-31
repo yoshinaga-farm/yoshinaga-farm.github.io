@@ -78,6 +78,8 @@
 .vdo-ninja {
   align-items: center;
   justify-content: center;
+  height: 300px;
+  width: 600px;
 }
 
 @keyframes live-cam-vivid {
