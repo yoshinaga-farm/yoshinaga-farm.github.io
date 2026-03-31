@@ -83,6 +83,10 @@
   width: 600px;
 }
 
+.rec{
+  color: red;
+}
+
 @keyframes live-cam-vivid {
   0% {
     color: rgb(255, 142, 142);
