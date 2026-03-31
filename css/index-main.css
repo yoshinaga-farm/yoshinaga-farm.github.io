@@ -69,12 +69,16 @@
 }
 
 #live-cam-hour {
-  text-align: center;
+  
   font-size: 1.5rem;
   animation-duration: 5s;
   animation-name: live-cam-vivid;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
+}
+.vdo-ninja{
+  align-items: center;
+  justify-content: center;
 }
 
 @keyframes live-cam-vivid {
