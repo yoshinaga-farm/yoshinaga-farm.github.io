@@ -68,7 +68,8 @@
   color: rgba(255, 203, 198, 0.851);
 }
 
-#live-cam-hour,.live-cam-string {
+#live-cam-hour,
+.live-cam-string {
   font-size: 1.5rem;
   animation-duration: 5s;
   animation-name: live-cam-vivid;
@@ -120,5 +121,9 @@
 
   .main__img {
     max-height: 400px;
+  }
+  .vdo-ninja {
+  width: 100%;
+  height: auto;
   }
 }
