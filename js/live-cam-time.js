@@ -3,10 +3,18 @@ const liveCamHour = () => {
   const hour = now.getHours().toString().padStart(2, "0");
   const minute = now.getMinutes().toString().padStart(2, "0");
   const second = now.getSeconds().toString().padStart(2, "0");
-  const msec = now.getMilliseconds().toString().padStart(3, "0");
+  const msec = Math.floor(now.getMilliseconds() / 10);
+  const msecFix = msec.toString().padStart(2, "0");
+  const year = now.getFullYear();
+  const month = now.getMonth() + 1;
+  const day = now.getDate();
+  const week = now.getDay();
+
+  const weekList = ["月曜日", "火曜日", "水曜日", "木曜日", "金曜日", "土曜日", "日曜日"];
+  const weekStr = weekList[week];
 
   document.getElementById("live-cam-hour").textContent =
-    `販売所のライブ映像(${hour}:${minute}:${second}.${msec})`;
+    `販売所のライブ映像(${year}/${month}/${day} ${weekStr}  ${hour}:${minute}:${second}.${msecFix})`;
 };
 
 liveCamHour();
